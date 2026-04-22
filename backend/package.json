@@ -1,0 +1,34 @@
+{
+  "name": "municipal-complaint-system",
+  "version": "1.0.0",
+  "description": "WPL project",
+  "main": "index.js",
+ "scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navjyothari/Municipal-Complaint-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Navjyothari/Municipal-Complaint-System/issues"
+  },
+  "homepage": "https://github.com/Navjyothari/Municipal-Complaint-System#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
